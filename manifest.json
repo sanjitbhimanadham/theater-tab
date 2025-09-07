@@ -1,9 +1,19 @@
 {
-  "name": "Theatre Tab",
-  "description": "Better Theatre Mode",
-  "version": "1.0",
-  "manifest_version": 3,
-  "action": {
-    "default_popup": "hello.html"
-  }
+    "manifest_version": 3,
+    "name": "Theatre Tab",
+    "version": "1.0.0",
+    "description": "Better Theatre Mode",
+
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    
+    "action": {
+        "default_title": "Open in Theatre Mode"
+    },
+    
+    "background": {
+        "service_worker": "background.js"
+    }
 }
