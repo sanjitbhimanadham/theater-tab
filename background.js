@@ -4,7 +4,7 @@ chrome.action.onClicked.addListener((tab) => {
         const videoId = url.searchParams.get('v');
     
         if (videoId) {
-            const embedUrl = 'https://www.youtube.com/embed/${videoId}?autoplay=1';
+            const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
 
             chrome.tabs.update(tab.id, { url: embedUrl });
         }
