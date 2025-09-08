@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Theatre Tab",
+    "name": " Tab",
     "version": "1.0.0",
-    "description": "Better Theatre Mode",
+    "description": "Better Theater Mode",
 
     "permissions": [
         "activeTab",
