@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": " Tab",
+    "name": "Theater Tab",
     "version": "1.0.0",
     "description": "Better Theater Mode",
 
@@ -10,7 +10,8 @@
     ],
     
     "action": {
-        "default_title": ""
+        "default_title": "",
+        "default_icon": "theater-tab.png"
     },
     
     "background": {
